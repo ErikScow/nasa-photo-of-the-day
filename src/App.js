@@ -9,9 +9,11 @@ import Card from "./Components/Card"
 function App() {
 
   //setting up state for the data
-  const [data, setData] = useState()
+  const [data, setData] = useState('waiting for data')
 
-  const fetchData = () => {
+  
+  //useEffect to call the data upon first render
+  useEffect(() => {
     axios
       .get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
       .then(response => {
@@ -19,9 +21,7 @@ function App() {
         setData(response.data)
       })
       .catch(error => console.log(error))
-  }
-  //useEffect to call the data upon first render
-  useEffect(fetchData, [])
+  }, [])
   
   console.log(data)
   
