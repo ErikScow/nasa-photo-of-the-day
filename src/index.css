@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* custom css below */
+
+body{
+  color: white;
+  background: #282933;
+}
+/* refactored to styled-components
+.Header{
+  background: #353640;
+  box-shadow: 0px 2px 5px #232229;
+  padding: 20px 0;
+  position:fixed;
+  z-index: 1;
+  width: 100%;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-container{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 160px;
+}
+.Card{
+  width: 90%;
+  margin: 0 auto ;
+  background: #353640;  
+  box-shadow: 2px 2px 5px #232229;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 100px auto;
+}
+
+.text-container{
+  margin: 20px auto 0;
+  width: 80%;
+}
+.Card h3{
+  text-align: left;
+}
+.card-text{
+  margin-top: 20px;
+  text-align: justify;
+}
+img{
+  width: 80%;
+  margin: 40px 0;
+}
+*/
