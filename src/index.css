@@ -18,6 +18,7 @@ body{
   color: white;
   background: #282933;
 }
+/* refactored to styled-components
 .Header{
   background: #353640;
   box-shadow: 0px 2px 5px #232229;
@@ -30,6 +31,7 @@ body{
   justify-content: center;
   align-content: center;
 }
+
 .card-container{
   width: 1000px;
   margin: 0 auto;
@@ -44,9 +46,7 @@ body{
   padding: 50px;
   margin: 100px auto;
 }
-.Card h1{
-  margin-bottom: 20px;
-}
+
 .text-container{
   margin: 20px auto 0;
   width: 80%;
@@ -62,3 +62,4 @@ img{
   width: 80%;
   margin: 40px 0;
 }
+*/
